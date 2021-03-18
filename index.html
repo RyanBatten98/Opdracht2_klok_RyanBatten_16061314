@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset='utf-8'/>
+		<title>Clock</title>
+		<link href='style.css' type='text/css' rel='stylesheet'/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	</head>
+	<body>
+		<div id="MyClockDisplay" class="clock"></div>
+		<script src="main.js"></script>
+		<div class="wrap">
+			<h1 id="greeting"></h1>
+		</div>
+		<div id="demo">	
+			<img class="spaceship" src="images/spaceship.png" alt="spaceship"/>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+		<script>
+		
+			TweenMax.to(".spaceship", 3, {duration: 2.5, ease: "bounce.out", y: -1600});
+			
+		</script>	
+	</body>
+</html>  
